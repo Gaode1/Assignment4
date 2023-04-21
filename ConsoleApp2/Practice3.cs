@@ -15,7 +15,7 @@ public class Practice3
         {
             for (int j = 2; j < i; j++)
             {
-                if (i % j != 0)
+                if (i % j == 0)
                 {
                     res.Add(i);
                 }
