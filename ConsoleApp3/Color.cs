@@ -21,5 +21,9 @@ public class Color
         Green = green;
         Blue = blue;
     }
-    
+
+    public byte GetGrayScale(Color color)
+    {
+        return Convert.ToByte((color.Red + color.Blue + color.Green) / 3);
+    }
 }
